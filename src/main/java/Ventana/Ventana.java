@@ -1,15 +1,10 @@
-package org.sfaci.holamongodb;
+package Ventana;
 
 import com.toedter.calendar.JDateChooser;
 
 import javax.swing.*;
 
-/**
- * Formulario de la aplicación
- *
- * @author Santiago Faci
- * @version curso 2015-2016
- */
+
 public class Ventana {
     public JPanel panel1;
     public JTextField tfAutor;
@@ -21,7 +16,7 @@ public class Ventana {
     public JButton btGuardar;
     public JButton btModificar;
     public JButton btEliminar;
-    public JList lLibros;
+    public JList lPeliculas;
     public JTextField tfBuscar;
 
     public Ventana() {

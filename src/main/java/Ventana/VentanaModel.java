@@ -29,9 +29,7 @@ public class VentanaModel {
         db = mongoClient.getDatabase(Constantes.NOMBRE_BASEDEDATOS);
     }
 
-    /**
-     * Libera todos los recursos (conexiones en red y conexiones con Bases de Datos)
-     */
+
     public void desconectar() {
         mongoClient.close();
     }
